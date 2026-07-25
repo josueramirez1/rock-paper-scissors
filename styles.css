@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.rps-container {
+  background-color: rgb(0, 125, 204);
+  padding: 60px;
+  border-radius: 11px;
+  color: rgb(61, 2, 26);
+}
+
+.information-container {
+  display: flex;
+  background-color: rgb(255, 185, 0);
+  padding: 40px;
+  border-radius: 5px;
+  gap: 64px;
+}
+
+button {
+  font-size: 36px;
+  cursor: pointer;
+}

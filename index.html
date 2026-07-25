@@ -3,9 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Rock Paper Scissors</title>
   </head>
   <body>
+    <div class="rps-container">
+      <h1>Rock-Paper-Scissors!</h1>
+      <div class="score-container">
+        <h2>Round:<span class="update-num">1</span></h2>
+      </div>
+      <div class="information-container">
+        <div class="player-container">
+          <h3>Player: <span class="player-update">0</span></h3>
+          <button class="rock-btn">🪨</button>
+          <button class="paper-btn">📃</button>
+          <button class="scissors-btn">✂️</button>
+        </div>
+        <div class="computer-container">
+          <h3>Computer:<span class="computer-update">0</span></h3>
+          <button class="computer-btn">?</button>
+        </div>
+      </div>
+      <div class="msg-container">
+        <p class="msg">Enjoy the Game!</p>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
